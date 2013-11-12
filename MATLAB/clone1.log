@@ -1,0 +1,133 @@
+
+Log for 'CPLEX' Clone_1 (V12.5.0.0) Mon Apr 22 16:52:05 2013
+
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.22 sec. (54.17 ticks)
+Parallel mode: using up to 6 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 3999500
+Using Nested Dissection ordering
+Total time for automatic ordering = 16.97 sec. (12269.41 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 6
+  Rows in Factor            = 3000
+  Integer space required    = 173000
+  Total non-zeros in factor = 4346120
+  Total FP ops to factor    = 8240087680
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf          
+   0 -2.3643630e-014  0.0000000e+000 3.27e+004 0.00e+000 3.00e+006
+   1  2.1288669e+004  4.5360652e+003 3.05e-003 0.00e+000 3.23e+002
+   2  5.1730904e+003  4.2457844e+003 1.38e-005 0.00e+000 4.78e+001
+   3  4.6469270e+003  4.4787814e+003 5.90e-007 0.00e+000 1.30e+001
+   4  4.5983573e+003  4.5551719e+003 4.79e-007 0.00e+000 3.76e+000
+   5  4.5874690e+003  4.5765536e+003 8.53e-007 0.00e+000 1.13e+000
+   6  4.5861360e+003  4.5848435e+003 1.44e-006 0.00e+000 1.10e-001
+   7  4.5858866e+003  4.5854381e+003 8.99e-006 0.00e+000 4.52e-002
+   8  4.5858521e+003  4.5857550e+003 9.16e-006 0.00e+000 1.03e-002
+   9  4.5858488e+003  4.5858475e+003 1.11e-005 0.00e+000 8.92e-005
+  10  4.5858484e+003  4.5858484e+003 5.24e-006 0.00e+000 1.30e-006
+  11  4.5858484e+003  4.5858484e+003 1.63e-005 0.00e+000 1.17e-008
+Barrier time = 36.02 sec. (23868.85 ticks)
+
+Primal crossover.
+  Primal:  Fixed no variables.
+  Dual:  Fixed no variables.
+Using devex.
+Total crossover time = 0.76 sec. (557.23 ticks)
+
+Total time on 6 threads = 37.03 sec. (24484.13 ticks)
+
+Dual simplex solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.5.0.0) Mon Apr 22 17:03:45 2013
+
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.39 sec. (56.78 ticks)
+Parallel mode: using up to 6 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 2024900
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 2.07 sec. (408.23 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 6
+  Rows in Factor            = 10200
+  Integer space required    = 1001800
+  Total non-zeros in factor = 2038544
+  Total FP ops to factor    = 410290200
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf          
+   0 -3.2458845e-014  0.0000000e+000 3.96e+004 0.00e+000 1.02e+007
+   1  3.1002746e+004  2.2835291e+004 2.25e-002 0.00e+000 1.19e+004
+   2  2.1747148e+004  1.1453082e+004 4.56e-004 0.00e+000 6.86e+001
+   3  1.4628714e+004  1.3577286e+004 1.10e-005 0.00e+000 3.39e+001
+   4  1.4493584e+004  1.3916398e+004 6.08e-006 0.00e+000 2.03e+001
+   5  1.4350003e+004  1.4038004e+004 4.01e-006 0.00e+000 1.46e+001
+   6  1.4146443e+004  1.4079750e+004 1.58e-006 0.00e+000 1.69e+001
+   7  1.4130316e+004  1.4051265e+004 1.52e-006 0.00e+000 1.25e+001
+   8  1.4097108e+004  1.4030051e+004 1.26e-006 0.00e+000 8.43e+000
+   9  1.4060415e+004  1.4012750e+004 9.71e-007 0.00e+000 4.53e+000
+  10  1.4029597e+004  1.4004848e+004 6.45e-007 0.00e+000 2.41e+000
+  11  1.4011408e+004  1.3999856e+004 3.41e-007 0.00e+000 1.01e+000
+  12  1.4002199e+004  1.3997405e+004 2.24e-007 0.00e+000 3.06e-001
+  13  1.3997496e+004  1.3996905e+004 2.23e-007 0.00e+000 1.48e-001
+  14  1.3996619e+004  1.3996582e+004 9.02e-008 0.00e+000 4.23e-002
+  15  1.3996555e+004  1.3996529e+004 1.73e-007 0.00e+000 1.04e-002
+  16  1.3996520e+004  1.3996521e+004 3.39e-007 0.00e+000 1.48e-003
+  17  1.3996520e+004  1.3996520e+004 2.08e-007 0.00e+000 3.39e-004
+  18  1.3996520e+004  1.3996520e+004 3.01e-004 0.00e+000 6.00e-006
+  19  1.3996520e+004  1.3996520e+004 5.66e-006 0.00e+000 3.06e-010
+Barrier time = 22.26 sec. (3936.07 ticks)
+
+Primal crossover.
+  Primal:  Fixed no variables.
+  Dual:  Fixed no variables.
+Using devex.
+Total crossover time = 9.64 sec. (22627.60 ticks)
+
+Total time on 6 threads = 32.31 sec. (26624.56 ticks)
+Using devex.
+
+Barrier solved model.
+
+
+Log for 'CPLEX' Clone_1 (V12.5.0.0) Mon Apr 22 17:12:32 2013
+
+Tried aggregator 0 times.
+No LP presolve or aggregator reductions.
+Presolve time = 0.47 sec. (107.92 ticks)
+Parallel mode: using up to 6 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 6000000
+Using Nested Dissection ordering
+Total time for automatic ordering = 32.32 sec. (24126.98 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 6
+  Rows in Factor            = 4000
+  Integer space required    = 1174000
+  Total non-zeros in factor = 6347620
+  Total FP ops to factor    = 12246090180
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf          
+   0  4.1789228e-013  0.0000000e+000 4.68e+004 0.00e+000 4.00e+006
+   1  3.1839615e+004  9.5460007e+003 5.32e-003 0.00e+000 6.17e+002
+   2  1.0539866e+004  8.3895205e+003 7.91e-005 0.00e+000 6.16e+001
+   3  9.0038953e+003  8.8603517e+003 9.03e-007 0.00e+000 2.86e+000
+   4  8.9413849e+003  8.9134532e+003 2.84e-006 0.00e+000 5.72e-001
+   5  8.9281659e+003  8.9244206e+003 7.43e-006 0.00e+000 9.12e-002
+   6  8.9270186e+003  8.9261428e+003 1.54e-005 0.00e+000 1.95e-002
+   7  8.9266110e+003  8.9264876e+003 2.90e-005 0.00e+000 3.75e-003
+   8  8.9265678e+003  8.9265637e+003 2.49e-005 0.00e+000 2.31e-004
+   9  8.9265669e+003  8.9265669e+003 3.20e-006 0.00e+000 2.22e-006
+  10  8.9265669e+003  8.9265669e+003 6.36e-005 0.00e+000 5.61e-010
+  11  8.9265669e+003  8.9265669e+003 1.09e-006 0.00e+000 1.00e-009
+Barrier time = 96.95 sec. (62701.07 ticks)
+
+Primal crossover.
+  Primal:  Fixed no variables.
+  Dual:  Fixed no variables.
+Using devex.
+Total crossover time = 4.37 sec. (4033.40 ticks)
+
+Total time on 6 threads = 101.82 sec. (66850.11 ticks)
+Using devex.
+
+Barrier solved model.
+

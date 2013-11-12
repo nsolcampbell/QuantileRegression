@@ -1,0 +1,8 @@
+
+function [f] = compute_loss(A,b,c,options)
+
+switch options.loss
+    
+    
+    
+end

@@ -1,0 +1,19 @@
+% NOTE: This function requires CVX
+%
+% Solve sparse PCA problem of 
+% "A Direct Formulation for Sparse PCA Using Semidefinite Programming,"
+% SIAM Review, 49(3), 2007, pp. 434-448 by A. d’Aspremont, L. El Ghaoui, M.
+% I. Jordan, G. R. G. Lanckriet 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compute max Tr(AX) s.t. Tr(X)==1, ||X||_1 <= k, X psd 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Modified by Ronny Luss, April 2011
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+function [beta,sol] = L1Reg_L1Loss_cplex(A,b,lambda)
+disp('Sparse L1 Regularization using Cplex.');
+
+[m,n]=size(A);
+
+c=[zeros(n,1);ones(m,1);lambda*ones(n,1)]; % coefficients for [x;w;t];
+B=[A,-eye(m),zeros(

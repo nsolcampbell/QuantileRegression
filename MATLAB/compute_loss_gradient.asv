@@ -1,0 +1,19 @@
+
+function [grad] = compute_loss_gradient(A,b,x,options)
+
+switch options.loss
+   
+    case 'huber'
+        res=A*x-b;
+        grad1=A'*res;
+        grad2=A'*sign(res);
+        grad=grad1.*(abs(res)<=1)+grad2.*(abs(res)>1);
+    case 'gen_huber'
+        n=length(x);
+        res=A*x-b;
+        grad=zeros(n,1);
+        res/options.delta;
+        ind=(res<-options.delta*(1-options.tau));grad(ind)=-(1-options.tau);
+        ind=(res>options.delta*options.tau);grad(ind)=options.tau;
+        grad=A'*grad;
+end
